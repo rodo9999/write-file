@@ -19,7 +19,7 @@ maximum-scale=1,minimum-scale=1, width=device-width" />
             }
             
             function onFileSystemSuccess(fileSystem) {
-                fileSystem.root.getFile("/sdcard/external_sd/readme.txt",
+                fileSystem.root.getFile("readme.txt",
                 {create: true, exclusive: false},
                 gotFileEntry, fail);
               }
